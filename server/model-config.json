@@ -20,6 +20,11 @@
         "type": "hasOne",
         "model": "Profile",
         "foreignKey": ""
+      },
+      "Messages": {
+        "type": "hasMany",
+        "model": "Message",
+        "foreignKey": ""
       }
     }
   },
